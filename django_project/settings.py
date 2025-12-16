@@ -29,8 +29,7 @@ SECRET_KEY = "django-insecure-c8ba!18k9ybgimy)m2z#u*d&u$gs$(k4)d3ge&c*0kr1eoo$v4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["dfb-ch17-news.fly.dev", "localhost", "127.0.0.1"]  # new 
-CSRF_TRUSTED_ORIGINS = ["https://dfb-ch17-news.fly.dev"] 
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
